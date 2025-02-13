@@ -1,0 +1,32 @@
+components:
+- components:
+  - layout_properties: {width: 970, x: 0, y: 167.00000476837158}
+    name: image_1
+    properties: {source: _/theme/connect4-gif2-unscreen (1).gif}
+    type: Image
+  - data_bindings: []
+    event_bindings: {show: heading_1_show}
+    layout_properties: {width: 292.65625, x: 346.63541412353516, y: 9.322915077209473}
+    name: heading_1
+    properties:
+      align: center
+      bold: true
+      font_family: Yeseva One
+      font_size: 60
+      spacing:
+        margin: ['-20', null, '1', null]
+      text: Connect 4
+      text_color: theme:On Surface Variant
+    type: form:dep_lin1x4oec0ytd:_Components.Heading
+  - data_bindings: []
+    event_bindings: {click: button_1_click}
+    layout_properties: {width: 110, x: 434.2917251586914, y: 119.2708330154419}
+    name: button_1
+    properties: {appearance: tonal, background_color: '', icon_color: 'theme:Primary Container', text: SIGN IN}
+    type: form:dep_lin1x4oec0ytd:_Components.Button
+  layout_properties: {grid_position: 'WBKASR,TTLKND'}
+  name: xypanel_1
+  properties: {height: 371.6666564941406}
+  type: XYPanel
+container: {type: ColumnPanel}
+is_package: true

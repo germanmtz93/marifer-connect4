@@ -1,0 +1,67 @@
+components:
+- data_bindings: []
+  layout_properties: {grid_position: 'AZBFCQ,CFWJSV', row_background: 'theme:Disabled Container'}
+  name: heading_1
+  properties:
+    align: center
+    bold: true
+    font_size: 35
+    icon_color: theme:On Primary Container
+    scale: small
+    spacing:
+      margin: ['-10', null, null, null]
+    style: display
+    text: WELCOME TO CONNECT 4 !
+    text_color: theme:On Disabled
+  type: form:dep_lin1x4oec0ytd:_Components.Heading
+- layout_properties: {grid_position: 'SIGYNU,ZPYJMF'}
+  name: text_1
+  properties: {align: center, bold: true, text: 'Connect 4 is a timeless two-player strategy game that’s as fun as it is easy to play. ', text_color: '#4473c2'}
+  type: form:dep_lin1x4oec0ytd:_Components.Text
+- layout_properties: {grid_position: 'CVPUAN,INMGUM'}
+  name: text_2
+  properties: {align: center, bold: true, text: 'The goal is simple: be the first to align four of your colored discs vertically, horizontally, or diagonally on the grid.', text_color: '#4473c2'}
+  type: form:dep_lin1x4oec0ytd:_Components.Text
+- components:
+  - layout_properties: {width: 604.9791870117188, x: 304.33338928222656, y: 18.229171752929688}
+    name: text_3
+    properties: {bold: false, font_size: 12, scale: small, text: 'This version was built using advanced neural networks and the Monte Carlo Tree Search method to enhance gameplay and decision-making.                              Interested to know more about the technology behind it?', text_color: 'theme:Secondary'}
+    type: form:dep_lin1x4oec0ytd:_Components.Text
+  - event_bindings: {click: button_1_click}
+    layout_properties: {width: 248.3229217529297, x: 298.65626525878906, y: 72.89584350585938}
+    name: button_1
+    properties: {appearance: tonal, background_color: '', text: Click here to know more, text_color: 'theme:On Surface Variant'}
+    type: form:dep_lin1x4oec0ytd:_Components.Button
+  - layout_properties: {width: 74.65625, x: 624.6458282470703, y: 94.22917175292969}
+    name: text_5
+    properties: {font_size: 12, italic: false, text: 'Fun Fact :', text_color: '#4473c2'}
+    type: form:dep_lin1x4oec0ytd:_Components.Text
+  - layout_properties: {width: 211.3229217529297, x: 538.6770782470703, y: 117.54167175292969}
+    name: text_6
+    properties: {align: center, font_size: 10, italic: false, text: 'Connect 4 is over 50 years old! First released in 1974, this classic game has been a favorite for players of all ages and has over 4 trillion possible game board configurations!', text_color: '#4473c2'}
+    type: form:dep_lin1x4oec0ytd:_Components.Text
+  - event_bindings: {click: button_2_click}
+    layout_properties: {width: 200, x: 295.9895782470703, y: 184.22918701171875}
+    name: button_2
+    properties: {appearance: tonal, background_color: '#c2e0c8', icon_color: '#a2eca7', text: Begin to Play !, text_color: 'theme:On Surface Variant'}
+    type: form:dep_lin1x4oec0ytd:_Components.Button
+  - layout_properties: {width: 270.01043701171875, x: 10.3125, y: 17.552078247070312}
+    name: image_1
+    properties: {height: 225, source: _/theme/c4.png}
+    type: Image
+  - layout_properties: {width: 200, x: 304.66664123535156, y: 146.20834350585938}
+    name: text_4
+    properties: {bold: false, font_size: 12, text: 'Not that interested ?', text_color: 'theme:Outline'}
+    type: form:dep_lin1x4oec0ytd:_Components.Text
+  layout_properties: {grid_position: 'BUIPFH,BVQVRK'}
+  name: xypanel_1
+  properties: {height: 243.66665649414062}
+  type: XYPanel
+container:
+  properties:
+    col_widths: '{"CFWJSV":60}'
+    role: custom-bg
+    spacing:
+      margin: ['-10', null, '0', null]
+  type: ColumnPanel
+is_package: true

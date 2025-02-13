@@ -1,0 +1,36 @@
+components:
+- layout_properties: {grid_position: 'RVORFE,DVBVDH'}
+  name: turn_indicator_label
+  properties: {align: center, background_color: 'theme:Primary Container', bold: true, text: YOUR TURN !}
+  type: form:dep_lin1x4oec0ytd:_Components.Text
+- data_bindings: []
+  event_bindings: {mouse_down: canvas_1_mouse_down, reset: canvas_1_reset}
+  layout_properties: {full_width_row: false, grid_position: 'JBOERK,CKWWZV'}
+  name: canvas_1
+  properties:
+    height: 367.33331298828125
+    margin: [null, null, null, '280']
+  type: Canvas
+- event_bindings: {click: play_again_button_click}
+  layout_properties: {grid_position: 'FTLVIN,CUXHSV'}
+  name: play_again_button
+  properties:
+    appearance: tonal
+    spacing:
+      margin: [null, null, null, '200']
+    text: Play Again
+  type: form:dep_lin1x4oec0ytd:_Components.Button
+- event_bindings: {click: return_home_button_click}
+  layout_properties: {grid_position: 'FTLVIN,HQATMA'}
+  name: return_home_button
+  properties:
+    appearance: tonal
+    spacing:
+      margin: [null, '0', null, '180']
+      padding: [null, null, null, '24']
+    text: Return Home
+  type: form:dep_lin1x4oec0ytd:_Components.Button
+container:
+  properties: {col_widths: '{"CUXHSV":30,"HQATMA":30}'}
+  type: ColumnPanel
+is_package: true
