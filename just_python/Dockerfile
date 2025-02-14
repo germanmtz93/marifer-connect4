@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.10
 
 # Copy requirements.txt to the root directory of the container
 COPY requirements.txt /
