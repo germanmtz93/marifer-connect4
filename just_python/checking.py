@@ -12,7 +12,7 @@ import tensorflow as tf
 import numpy as np
 
 # Connect to Anvil
-anvil.server.connect("server_EYRBNPMTSKYXRE65DRUHZZBP-56YSNOWCH2OOPZ3D")
+anvil.server.connect("server_FGZJLI5RWO4SPZ4E6AOQHAWF-S7P5DSCEQSQX5CP5")
 
 
 cnn_model = tf.keras.models.load_model("./cnn_67.h5")
